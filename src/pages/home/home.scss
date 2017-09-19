@@ -1,3 +1,44 @@
 page-home {
 
+  .grid-basic-page {
+
+    background-color: rgb(224, 248, 254);
+
+    ion-col div {
+      background-color: #f0f5ff;
+      border: 1px solid #e6e9ee;
+      border-radius: 2px;
+      padding: 5px;
+      text-align: center;
+
+    }
+
+    p {
+      padding: 10px 0 0 10px !important;
+      margin: 0;
+    }
+
+    .signUp{
+      color: white;
+      background-color: rgb(0, 106, 165);
+      text-transform: none;
+      border-radius: 10px;
+      height: 7vh;
+    }
+
+    .logIn{
+      color: rgb(0, 106, 165);
+      background-color: white;
+      border: 0.2px solid rgb(0, 106, 165);
+      text-transform: none;
+      border-radius: 10px;
+      height: 7vh;
+    }
+
+    .button{
+      width: 80vw;
+    }
+
+  }
+
 }
